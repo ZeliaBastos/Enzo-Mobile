@@ -1,0 +1,340 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #293651;
+  }
+  @media (min-width: 960px){
+    body{
+      font-size: 20px;
+    }
+  }
+  .inicio{
+    background-image: url(../img/wave-haikei.svg);
+    background-position: center;
+    background-size: cover;
+  }
+  .topo{
+    color:#00a78e;
+    font-weight: unset;
+    font-size: 13px;
+    letter-spacing: 4px;
+  }
+  @media (min-width: 960px){
+    .topo{
+      font-size: 30px;
+    }
+  }
+  .just{
+    text-align: justify;
+  }
+  @media (min-width: 960px){
+    .just{
+      text-align: right;
+    }
+  }
+  .page{
+    text-align: center;
+    background-color: #00a78e;
+  }
+  @media (min-width: 960px){
+    .page{
+      text-align: right;
+      margin-right: 50px;
+      position: sticky;
+      top: 10px;
+    }
+  }
+  .menu{
+    display: inline-block;
+    font-size: 11px;
+    padding: 5px;
+    color: aliceblue;
+    box-sizing: border-box;
+    cursor: pointer;  
+  }
+  @media (min-width: 960px){
+    .menu{
+      font-size: 16px;
+    }
+  }
+  a{
+    text-decoration: none;
+    color: aliceblue;
+  }
+  a:hover{
+    color: #293651;
+  }
+  .menu:hover{
+    color: #293651;
+  }
+  .free{
+    text-align: right;
+    margin-right: 10px;
+    color: aliceblue;
+    font-size: 13px;
+  }
+  @media (min-width: 960px){
+    .free{
+      margin-right: 80px;
+      font-size: 20px;
+    }
+  }
+  .container{
+    margin-bottom: 30px;
+    box-sizing: border-box;
+  }
+  @media (min-width: 960px){
+    .container{
+      margin: 40px 100px 150px 100px;
+      box-sizing: border-box;
+    }
+  }
+  .btn{
+    color: white;
+    padding: 10px;
+    background-color:#00a78e;
+    border: none;
+    border-radius: 40px 10px;
+    font-size: 13px;
+    text-decoration: none;
+  }
+  @media (min-width: 960px){
+    .btn{
+      padding: 15px 30px 15px 30px;
+      font-size: 18px;
+    }
+  }
+  .btn:hover{
+    color: #293651;
+  }
+  .regiao{
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  .descricao{
+    text-align: right;
+    width: 49%;
+  }
+  .figura{
+    width: 160px;
+  }
+  @media (min-width: 960px){
+    .figura{
+      width: 400px;
+    }
+  }
+
+  .destaque{
+    font-weight: 900;
+    font-size: 18px;
+    text-align: justify;
+  }
+  @media (min-width: 960px){
+    .destaque{
+      font-size: 40px;
+      text-align: right;
+    }
+  }
+  h3{
+    font-weight: bold; 
+    font-size: 12px;
+  }
+  @media (min-width: 960px){
+    h3{
+      font-size: 30px;
+    }
+  }
+  .informacoes{
+    text-align: justify;
+    padding: 30px;
+    background-color: #f9f9f9;
+  }
+  @media (min-width: 960px){
+    .informacoes{
+      padding: 100px 200px 100px 200px;
+    }
+
+  }
+  .prof{
+    line-height: 30px;
+  }
+
+  .informacoes2{
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0px 10px 0px 10px;
+    text-align: justify
+  }
+  .exp{
+    width: 380px;
+    text-align: justify;
+  }
+  @media (min-width: 960){
+    .exp{
+      width: 800px;
+      text-align: justify;
+      line-height: 40px;
+    }
+  }
+  .desenv{
+    width: 36%;
+    float:left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+  }
+  .sob{
+    margin-top: 60px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .sou{
+    font-family: 'Concert One', cursive;
+  }
+  .sobre{
+    margin: 0%;
+  }
+  .qualificacao{
+    letter-spacing: 4px;
+  }
+  .serviços{
+    margin: 30px;
+  }
+  @media (min-width: 960px){
+    .serviços{
+      padding:  80px;
+    }
+  }
+  .serv{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+  }
+  .frase{
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    font-family: 'Satisfy', cursive;
+    font-size: 18px;
+  }
+  @media (min-width: 960px){
+    .frase{
+      padding: 15px;
+      font-size: 25px;
+    }
+  }
+  .linha{
+    text-align: center;
+  }
+ .quadro{
+    border: solid 2px #00a78e;
+    display: inline-block;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    margin: 3px;
+    cursor: pointer;
+ }
+ @media (min-width: 960px){
+  .quadro{
+    border: solid 3px #00a78e;
+    text-align: center;
+    width: 280px;
+    height: 120px;
+    line-height: 60px;
+    margin: 8px;
+  }
+ }
+
+ .icone{
+  width: 30px;
+ }
+ @media (min-width: 960px){
+  .icone{
+    width:60px;
+  }
+ }
+ .quadro:hover{
+    color:aliceblue;
+    background-color: #00a78e;
+ }
+ .back{
+  text-align: center;
+ }
+ .enviar{
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+ }
+ @media (min-width: 960px){
+  .enviar{
+    padding: 30px;
+  }
+ }
+ .seta{
+  height: 10px;
+ }
+ .end{
+  text-align: center;
+  background-color: #f9f9f9;
+  margin: 20px 0px 20px 0px;
+  padding: 10px;
+}
+.imagem{
+  text-align: left;
+  width: 60%;
+}
+.social{
+  cursor: pointer;
+  margin: 0%;
+  list-style-type: none;
+}
+.midia{
+  display: inline-block;
+}
+.mapa1{
+  text-align: center;
+  cursor: pointer;
+}
+.mapa2{
+  width: 90%;
+}
+.localiza{
+  text-align: right;
+  margin-right: 20px;
+}
+@media (min-width: 960px){
+  .localiza{
+    margin-right: 100px;
+  }
+}
+.encontre{
+  display: inline-block;
+}
+.mensagem{
+    cursor: pointer;
+}
+@media (min-width: 960px){
+  .mensagem{
+    margin-top: 20px;
+  }
+}
+.mensagem:hover{
+  color: #293651;
+}
+.orcamento{
+  text-align: center;
+  margin: 10px;;
+}
+.aqui{
+  background-color: #00a78e;
+  margin: 30px;
+  padding: 30px;
+  color: aliceblue;
+}
+.whatts{
+  text-align: center;
+}
+.down{
+  color:cornflowerblue;
+}
